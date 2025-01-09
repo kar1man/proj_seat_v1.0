@@ -1,22 +1,21 @@
 ::-moz-selection {
-  background: #3498db;
+  background: #FFCD2F;
 }
 ::selection {
-  background: #3498db;
+  background: #FFCD2F;
 }
 
 a {
-  color: #3498db;
+  color: #FFCD2F;
 }
 
 a:hover {
-	color: #2984c0;
+	color: #FFCD2F;
 }
 
 /* --- button theme --- */
 .btn-theme {
-  background: #3498db;
-  *background-color: #3498db;
+  background: #FFCD2F;
 }
 
 .btn-theme:hover,
@@ -24,21 +23,21 @@ a:hover {
 .btn-theme.active,
 .btn-theme.disabled,
 .btn-theme[disabled] {
-  background: #2984c0;
-  *background: #2984c0;
+  background: #2e2528;
 }
+
 
 /* --- slogan --- */
 .slogan h1 span {
-	color: #3498db;
+	color: #FFCD2F;
 }
 
 .tweet a {
-	color:#3498db;
+	color:#FFCD2F;
 }
 
 .tweet .tweet_time a:hover i {
-	color:#3498db;
+	color:#FFCD2F;
 }
 
 
@@ -47,32 +46,32 @@ a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #3498db;
+    background-color: #FFCD2F;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #3498db;
+    background-color: #FFCD2F;
 }
 
 
 
 
 .navbar .nav > li > a:hover {
-  color: #3498db;
+  color: #FFCD2F;
 }
 
 
 ul.nav li.current {
-  background: #3498db;
+  background: #FFCD2F;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	background: #3498db;
+	background: #FFCD2F;
 }
 
 input:focus, textarea:focus {
-	border: 1px solid #3498db;
+	border: 1px solid #FFCD2F;
 	border-width:4px;
 }
 textarea:focus,
@@ -91,28 +90,28 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #3498db;
+  border-color: #FFCD2F;
 }
 
 ul.contact-list li input.form_input:focus ,
 ul.contact-list li textarea.form_textarea:focus  {
-	border-color:#3498db;
+	border-color:#FFCD2F;
 }
 
 
 /* tab */
 
 .nav-tabs > a {
-	color:#3498db;
+	color:#FFCD2F;
 }
 
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #3498db;
+	color: #FFCD2F;
 }
 .accordion-heading .active{
-	color: #3498db;
+	color: #FFCD2F;
 }
 
 .accordion-inner {
@@ -123,5 +122,5 @@ ul.contact-list li textarea.form_textarea:focus  {
 /* portfolio */
 
 .thumb-wrapp{
-	background:#3498db;
+	background:#FFCD2F;
 }
