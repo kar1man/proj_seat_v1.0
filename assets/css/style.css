@@ -1068,28 +1068,63 @@ footer {
   .footer-columns {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center; /* Center the columns horizontally */
-	text-align: center; /* Center text inside the columns */
-  }
-  
-  .footer-column {
-	flex: 1 1 65%; /* Four columns of equal width */
+	justify-content: space-between; /* Ensure space between columns */
+	align-items: center; /* Vertically align content */
+}
+
+.footer-column {
+	flex: 1 1 auto; /* Allow flexible resizing of columns */
+	max-width: 300px; /* Limit width for better layout */
 	margin-bottom: 20px;
-	text-align: center; /* Ensure text is centered in the columns */
-	max-width: 300px; /* Limit the column width for better layout */
-  }
-  
+}
+
+.row.contain {
+	margin-left: 1px;
+	display: flex; /* Arrange items side by side */
+	flex-direction: column; /* Horizontal alignment of items */
+	align-items: center; /* Vertically align the text and buttons with the image */
+	gap: 5px; /* Add 10px spacing between items */
+	margin-top: 0; /* Remove extra top margin */
+}
+
+.contact-foot {
+	margin-right: 10px;
+}
+
+.mini-prev {
+	display: block; /* Ensure the image is treated as a block element */
+	width: 150px;
+	height: auto;
+	margin-right: 10px; /* Add gap between the image and text/buttons */
+}
+
+.btn-dl {
+	width: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fccc2c;
+	margin: 5px 10px 0 0; /* Add spacing for buttons */
+}
+
+.mini-prev img {
+	width: 50px; 
+	height: auto; 
+	margin-right: 10px; 
+}
+
+
   .footer-column h4 {
 	font-size: 18px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	color: #f39c12;
-	text-align: center; /* Keep header aligned to center */
+	text-align: start; 
   }
   
   .footer-column ul,
   .footer-column p,
   .footer-column form {
-	margin-left: 0; /* Ensure text aligns directly below the heading */
+	margin-left: 0; 
   }
   
   .footer-column ul {
